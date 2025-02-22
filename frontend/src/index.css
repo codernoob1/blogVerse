@@ -1,0 +1,19 @@
+@tailwind utilities;
+
+@layer base {
+    body {
+      @apply text-gray-900 bg-gray-50;
+    }
+  }
+  
+  @layer components {
+    .nav-link {
+      @apply flex items-center space-x-1 text-gray-600 hover:text-emerald-600 transition-colors;
+    }
+  }
+  
+  @layer utilities {
+    .text-balance {
+      text-wrap: balance;
+    }
+  }
